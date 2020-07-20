@@ -1,0 +1,41 @@
+{
+    "name": "lorem-pix-cli",
+    "version": "0.0.0",
+    "description": "CLI for lorem-pix",
+    "bin": {
+        "lorem-pix": "./cli"
+    },
+    "scripts": {
+        "test": "ava"
+    },
+    "eslintConfig": {
+        "extends": "@gmartigny/eslint-config"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/GMartigny/lorem-pix-cli.git"
+    },
+    "keywords": [
+        "image",
+        "picture",
+        "placeholder",
+        "filler",
+        "CLI"
+    ],
+    "author": "GMartigny",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/GMartigny/lorem-pix-cli/issues"
+    },
+    "homepage": "https://github.com/GMartigny/lorem-pix-cli#readme",
+    "devDependencies": {
+        "@gmartigny/eslint-config": "^1.5.0",
+        "ava": "^3.10.1",
+        "eslint": "^7.5.0",
+        "execa": "^4.0.3"
+    },
+    "dependencies": {
+        "lorem-pix": "^2.0.0",
+        "meow": "^7.0.1"
+    }
+}
