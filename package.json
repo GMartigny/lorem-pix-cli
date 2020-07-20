@@ -1,6 +1,6 @@
 {
     "name": "lorem-pix-cli",
-    "version": "0.0.0",
+    "version": "1.0.0",
     "description": "CLI for lorem-pix",
     "bin": {
         "lorem-pix": "./cli"
